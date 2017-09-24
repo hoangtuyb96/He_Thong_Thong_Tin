@@ -19,3 +19,5 @@
 .byebug_history
 /log
 /tmp
+/config/database.yml
+/config/secrets.yml
