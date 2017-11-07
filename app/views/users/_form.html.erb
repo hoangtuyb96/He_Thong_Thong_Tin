@@ -22,6 +22,16 @@
   </div>
 
   <div class="field">
+    <%= form.label :password %>
+    <%= form.password_field :password, id: :user_password %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password_confirmation %>
+    <%= form.password_field :password_confirmation, id: :user_password_confirmation %>
+  </div>
+
+  <div class="field">
     <%= form.label :birthday %>
     <%= form.text_field :birthday, id: :user_birthday %>
   </div>
